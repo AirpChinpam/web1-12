@@ -34,15 +34,16 @@ for(var i = 1; i < 10; i++){
   }
   
   var player = {name:'げれげれ',age:20,blood:'A'};
-  for(ley on player){
-   var li = document.createElement('li');
-   li.textContent = key + ': ' + player[key];
-   document.getElementById('object').appendChild(li);
+  for(key on player){
+   　var li = document.createElement('li');
+   　li.textContent = key + ': ' + player[key];
+   　document.getElementById('object').appendChild(li);
    }
    
    document.getElementById('form').onsubmit = function(){
        window.alert('押されました!');
        };
+
    document.getElementById('form').onsubmit = function(){
       window.alert(document.getElementById('form').word.value);
       return false;
